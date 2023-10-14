@@ -230,7 +230,7 @@
 
 # list sort:
 
-# l=[1,22,3,2,44,55,10,20] 
+# l=[1,22,3,2,44,55,10,20]
 # l.sort()
 # print(l)
 # l.sort(reverse=True)
@@ -240,16 +240,16 @@
 # print(l.index(2))
 # print(l.count(2))
 
-l=[1,22,3,2,44,55,10,20]
-m=l.copy() #or m=l[:]
-m[0]=0 #or l[0]=0
-print(l) #or print(m)
-s=[200,88,45]     
-l.extend(s)   #or l.append(s)
-print(l)         #🔳📤out = [0, 22, 3, 2, 44, 55, 10, 20, 200, 88, 45] 
-#or
-k=s+l #or k=l+s
-print(k)        #🔳📤out = [200, 88, 45, 0, 22, 3, 2, 44, 55, 10, 20]
+# l=[1,22,3,2,44,55,10,20]
+# m=l.copy() #or m=l[:]
+# m[0]=0 #or l[0]=0
+# print(l) #or print(m)
+# s=[200,88,45]
+# l.extend(s)   #or l.append(s)
+# print(l)         #🔳📤out = [0, 22, 3, 2, 44, 55, 10, 20, 200, 88, 4] 
+# #or
+# k=s+l #or k=l+s
+# print(k)        #🔳📤out = [200, 88, 45, 0, 22, 3, 2, 44, 55, 10, 20]
 
 # l=[1,22,3,2,44,55,10,20]
 # print(l[0:3])
@@ -269,5 +269,3 @@ print(k)        #🔳📤out = [200, 88, 45, 0, 22, 3, 2, 44, 55, 10, 20]
 # print(tup.index(3,4,8))   #3 is no. and 4 is starting index and 8 is ending index
 #                           # 📤🔳#out = 6 (3 is at 6th index)
 # print(tup[0:3])            #📤🔳#out = (1, 2, 3)
-
-                    
