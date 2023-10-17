@@ -271,3 +271,20 @@
 # print(tup[0:3])            #📤🔳#out = (1, 2, 3)
 # print(tup[0:3:2])           #📤🔳#out = (1, 3)
 
+# 💻vdo 28    "F string"
+#🌟 jo kam hum .format() se krte the vo kam f string se bhi kr skte h
+
+letter="hey my name is{1} and I am from {0}"
+country="india"
+name="Swastik"
+
+print(letter.format(country,name))     #1st way
+print(f"hey my name is {name} and I am from {country}")  #hm f string se 1st way format print ko easyly format lagaye bina kr skte he
+
+price=49.29499
+txt= f"the price is {price:.2f} dollars!"
+print(txt)
+print(type(f"{2*3}"))   #yha output integer nhi aayega string aayega bcz of f string
+print(f"{2*3}")  #📤🔳#out = 6   
+
+
