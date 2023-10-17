@@ -269,3 +269,5 @@
 # print(tup.index(3,4,8))   #3 is no. and 4 is starting index and 8 is ending index
 #                           # 📤🔳#out = 6 (3 is at 6th index)
 # print(tup[0:3])            #📤🔳#out = (1, 2, 3)
+# print(tup[0:3:2])           #📤🔳#out = (1, 3)
+
