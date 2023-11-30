@@ -1,4 +1,5 @@
 # ctrl + / for quick comment and dis comment
+# shift + enter for quick run the selected line
 
 # vdo 5💻💻💻
 # print("hello swastik",2,2, sep="-" , end="mishra\n")
@@ -13,7 +14,7 @@
 # print(a+b)
 # print(a*b)
 # print(a/b)
-# print(a//b)
+# print(a//b) #double slash
 # print(a%b)
 
 # vdo 11
@@ -287,6 +288,13 @@
 # print(txt)
 # print(type(f"{2*3}"))   #yha output integer nhi aayega string aayega bcz of f string
 # print(f"{2*3}")  #📤🔳#out = 6   
+
+# given variables
+# name = "John"
+# age = 28
+
+# # create a formatted string using these variables
+# print("My name is {} and I am {} years old.".format(name, age))
 
 
 
