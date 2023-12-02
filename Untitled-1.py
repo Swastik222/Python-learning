@@ -31,8 +31,8 @@
 # fruitlen=len(fruit)
 # print(fruitlen)
 
-# # print(fruit[0:4])
-# # print(fruit[:4])
+# print(fruit[0:4])
+# print(fruit[:4])
 
 # print(fruit[-3:-1])
 # print(fruit[-3:len(fruit)-1])
@@ -44,12 +44,12 @@
 
 # VDO 13💻💻
 
-# a="!!!harry!!!"
+# a="!!!haRrY!!!"
 # print(a.upper())
 # print(a.lower())
 
-# print(a.strip("!!")) #this is used to not count given symbol /#used to remove staart & ending white spaces
-# print(a.rstrip("!")) #used to remove ending white spaces
+# print(a.strip("!!")) ##this is used to not count given symbol /#used to remove staart & ending white spaces
+# print(a.rstrip("!")) ##used to remove ending white spaces
 
 # print(a.replace("harry", "swastik"))
 # OUTPUT = !!!HARRY!!!
@@ -60,13 +60,14 @@
 
 # a= "!!!! code with harry !!!"
 # print(a.split())
-# PUT --> ['!!!!', 'code', 'with', 'harry', '!!!']
+# 🔳OUTPUT --> ['!!!!', 'code', 'with', 'harry', '!!!']
 
 # a= "code wiTH HaRry"
 # print(a.capitalize())  #out = Code with harry
 # print(len(a))   #out= 15
 # print(len(a.center(50)))    #out= 50
 # print(a.center(50))         #out=                       code with HaRry
+# print(a.find("HaRry"))      #out= 9
 
 # x = "code with harry with harry along harry"
 # print(x.count("harry"))     #out = 3
