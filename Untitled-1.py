@@ -19,7 +19,7 @@
 
 # vdo 11
 # a= '''hello swastik
-# this is taniya ur
+# this is Chandan ur
 # friend'''
 # print(a)
 
@@ -89,14 +89,14 @@
 #     print(a , "is negative number")
 # elif(a>0):
 #     if(a<=25): print(a,"is lesser than 25")
-#     elif(a>25 and a<=55):  print(a,"is between 0 to 55")
+#     elif(a>25 and a<=55):  print(a,"is between 25 to 55")
 #     else: print(a, "is not in range")
 # else: print(a,"is zero")
 
 # vdo 15💻💻  exercise
 
 # import time
-# timestamp = time.strftime('%H:%M:%S:%ms')
+# timestamp = time.strftime('%H:%M:%S')
 # print(timestamp)
 # timestamp = time.strftime('%H')
 # print(timestamp)
@@ -110,12 +110,12 @@
 # x=int(input("enter a value \n"))
 
 # match x:
-#     case _ if x!= 20:
-#         print(x,"this is good")
-#     case 20:
-#         print(x,"is very good")
-#     case _:
-#         print(x)
+#  case _ if x!= 20:
+#      print(x,"this is good")
+#  case 20:
+#      print(x,"is very good")
+#  case _:
+#      print(x)
 
 
 # vdo 17 💻💻💻
@@ -170,7 +170,7 @@
 #     if (i==10):
 #         print("skip the iteration")
 #         continue
-#     print("5 X ",i,"=" ,5*i)
+ # print("5 X ",i,"=" ,5*i)
 
 # 👍 Do while loop in python using break
 # 🌟🌟🌟✨ Do while only support in C , C++, java etc not in python thats why we only use💻 while True:
