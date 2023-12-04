@@ -304,6 +304,22 @@
 # # create a formatted string using these variables
 # print("My name is {} and I am {} years old.".format(name, age))
 
+# 💻 ✨✨✨✨✨Vdo 29 (iNTERVIEW IMP QUES)🌟🌟🌟🌟🌟🌟🌟
+# 🌟 DOCSTRING IS THE FIRST LINE OF FUNCTION WHICH IS USED TO DESCRIBE THE FUNCTION  
+
+# def SQUARE(N): 
+#     '''THIS IS A DOCSTRING OF SQUARE FUNCTION'''
+#     print(N**2)
+# SQUARE(5)
+# print(SQUARE)
+# Capilot Generate Docstring
+# print(SQUARE.__doc__)  #📤🔳#out = THIS IS A DOCSTRING  
+# print(SQUARE.__name__) #📤🔳#out = SQUARE
+# print(SQUARE.__module__) #📤🔳#out = __main__    
+# print(SQUARE.__dict__) #📤🔳#out = {}  
+# print(SQUARE.__code__) #📤🔳#out = <code object SQUARE at 0x000001F4F9F9F9C0, file "c:\Users\swastik mishra\Documents\Python\PythonVdo.py", line 1>     
+# print(SQUARE.__defaults__) #📤🔳#out = None
+
 
 
 
