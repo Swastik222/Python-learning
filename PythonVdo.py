@@ -306,6 +306,7 @@
 
 # 💻 ✨✨✨✨✨Vdo 29 (iNTERVIEW IMP QUES)🌟🌟🌟🌟🌟🌟🌟
 # 🌟 DOCSTRING IS THE FIRST LINE OF FUNCTION WHICH IS USED TO DESCRIBE THE FUNCTION  
+# 🌟 DOCSTRING IS USED TO DESCRIBE THE FUNCTION AND IT IS ONLY BELOW FUNCTION NAME
 
 # def SQUARE(N): 
 #     '''THIS IS A DOCSTRING OF SQUARE FUNCTION'''
@@ -319,6 +320,28 @@
 # print(SQUARE.__dict__) #📤🔳#out = {}  
 # print(SQUARE.__code__) #📤🔳#out = <code object SQUARE at 0x000001F4F9F9F9C0, file "c:\Users\swastik mishra\Documents\Python\PythonVdo.py", line 1>     
 # print(SQUARE.__defaults__) #📤🔳#out = None
+
+# 🌟🌟PEP 8 is a coding DOCUMENT THAT PROVIDES GUIDELINES AND BEST PRACTICES, a set of RULE, about how to write your Python code more readable.
+# 🌟🌟PEP stands for Python Enhancement Proposal  WRITTEN BY GUIDO VAN ROSSUM , BARRY WARSAW , NICK COUGHLAN IN 2001
+
+# VDO 30💻 
+# 🌟 RECURSION : function calling itself is called recursion\
+# 🌟 RECURSION IS USED TO SOLVE THE PROBLEM IN WHICH WE HAVE TO CALL THE FUNCTION AGAIN AND AGAIN
+
+def factorial(n):
+    if (n == 0 or n == 1):
+        return 1
+    else:
+        return n * factorial(n-1)
+
+print(factorial(5))
+# 5 * factorial(4)
+# 5 * 4 * factorial(3)
+# 5 * 4 * 3 * factorial(2)
+# 5 * 4 * 3 * 2 * factorial(1)
+# 5 * 4 * 3 * 2 * 1
+
+
 
 
 
