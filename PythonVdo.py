@@ -1,3 +1,4 @@
+# 🌟🌟🌟🌟🌟🌟🌟🌟 Capilot suggestion using  Ctrl + Enter
 # ctrl + / for quick comment and dis comment
 # shift + enter for quick run the selected line
 
@@ -155,7 +156,7 @@
 
 #   Break statement☆*: .｡. o(≧▽≦)o .｡.:*☆
 # for i in range(10):
-#     if(i==5):
+#     if(i==6):
 #         break
 #     print(i)
 
@@ -163,14 +164,14 @@
 # for i in range(20):
 #     if(i==10):
 #         print ("breaking point")             #10 num pr breaking point print hoga instead of 10 bczz of continue
-#         continue
+#         continue  #it can be not usable
 #     print(i)
 
 # for i in range(20):
 #     if (i==10):
 #         print("skip the iteration")
 #         continue
- # print("5 X ",i,"=" ,5*i)
+#     print("5 X ",i,"=" ,5*i)
 
 # 👍 Do while loop in python using break
 # 🌟🌟🌟✨ Do while only support in C , C++, java etc not in python thats why we only use💻 while True:
@@ -195,15 +196,16 @@
 #         print("b is greater than a")
 # def isLesser(a,b):
 #     pass
-# a=2
-# b=3
+# a=int(input("enter the value of a : "))
+# b=int(input("enter the value of b : "))
 # gemMean(a,b)
 # isGreater(a,b)
 
-# c=10
+# c=30
 # d=20
 # gemMean(c,d)
 # isGreater(c,d)
+
 
 # 🔳🔳📤Output =
 # 1.2
@@ -224,13 +226,16 @@
 
 # Link to the list 📤⭐     https://www.codewithharry.com/tutorial/python-list-indexes/
 
-# list append:
+# ✨list append: add element in last of list
+
 # l=[1,22,3,'harry',"swastik",55,10,20]
 # print(l)
 # l.append(11)
 # print(l)
 
-# list sort:
+# 🔳📤out = [1, 22, 3, 'harry', 'swastik', 55, 10, 20, 11]
+
+# ✨list sort: sort the list in ascending order or descending order
 
 # l=[1,22,3,2,44,55,10,20]
 # l.sort()
@@ -239,13 +244,13 @@
 # print(l)
 # l.reverse()
 # print(l)
-# print(l.index(2))
-# print(l.count(2))
+# print(l.index(3))
+# print(l.count(6))
 
 # l=[1,22,3,2,44,55,10,20]
 # m=l.copy() #or m=l[:]
 # m[0]=0 #or l[0]=0
-# print(l) #or print(m)
+# print(m) #or print(m)
 # s=[200,88,45]
 # l.extend(s)   #or l.append(s)
 # print(l)         #🔳📤out = [0, 22, 3, 2, 44, 55, 10, 20, 200, 88, 4] 
@@ -256,7 +261,7 @@
 # l=[1,22,3,2,44,55,10,20]
 # print(l[0:3])
 
-# 🌟🌟🌟🌟🌟🌟🌟🌟 Capilot suggestion using  Ctrl + Enter
+
 
 # 💻vdo 25 Tuple()
 
@@ -272,6 +277,8 @@
 #                           # 📤🔳#out = 6 (3 is at 6th index)
 # print(tup[0:3])            #📤🔳#out = (1, 2, 3)
 # print(tup[0:3:2])           #📤🔳#out = (1, 3)
+# print(tup[0:3:-1])          #📤🔳#out = ()  bcz 0 to 3 is not possible in -1
+# print(tup[0:3:4])          #📤🔳#out = (1,)  bcz 0 to 3 is not possible in 4
 
 # 💻vdo 28    "F string"
 #🌟 jo kam hum .format() se krte the vo kam f string se bhi kr skte h
