@@ -457,6 +457,19 @@ dic2 = {311: "user", 827: "advance", 927: "pro"}
 # print(dic1)
 # del dic1   #📤🔳#out = delete the whole dictionary
 
+
+# vdo 34 💻💻   Else In LOop (for , while)
+    #🌟 Else with for loop  
+# 🌟✨💻INTERVIEW QUES. = kYA HUM FOR LOOP KE SATH ELSE USE KR SKTE HE ??   🔳 ANS. = YES WE CAN USE ELSE WITH FOR LOOP
+# 🌟✨💻INTERVIEW QUES. = Loop ko break kiya he btao else chalega ya nhi ??   🔳 ANS. = NO ELSE WILL NOT RUN
+for i in ():
+    print(i)
+else: 
+    print("SORRY NOT i")
+
+
+
+
        
 
 
