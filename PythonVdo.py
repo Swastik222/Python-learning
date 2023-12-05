@@ -328,18 +328,141 @@
 # 🌟 RECURSION : function calling itself is called recursion\
 # 🌟 RECURSION IS USED TO SOLVE THE PROBLEM IN WHICH WE HAVE TO CALL THE FUNCTION AGAIN AND AGAIN
 
-def factorial(n):
-    if (n == 0 or n == 1):
-        return 1
-    else:
-        return n * factorial(n-1)
+# def factorial(n):
+#     if (n == 0 or n == 1):
+#         return 1
+#     else:
+#         return n * factorial(n-1)
 
-print(factorial(5))
+# print(factorial(5))
 # 5 * factorial(4)
 # 5 * 4 * factorial(3)
 # 5 * 4 * 3 * factorial(2)
 # 5 * 4 * 3 * 2 * factorial(1)
 # 5 * 4 * 3 * 2 * 1
+
+# examPLE : 2 FOR RECURSION - Print fibonacci series using recursion
+# def fibonacci(n):
+#     if n == 0:
+#         return 0
+#     elif n == 1:
+#         return 1
+#     else:
+#         return fibonacci(n-1) + fibonacci(n-2)  # Recursive approach
+# print(fibonacci(10)) 
+
+# ✨Print fibonacci series List
+
+# def fibonacci(n):
+#     fib_list = [0, 1]  # Initialize the list with the first two numbers in the series
+
+#     # Generate the Fibonacci series
+#     for i in range(2, n):
+#         fib_list.append(fib_list[i-1] + fib_list[i-2])
+
+#     return fib_list
+
+# # Test the function
+# n = 10  # Number of Fibonacci numbers to generate
+# fib_numbers = fibonacci(n)
+# print(fibonacci(n))
+# ## or
+# print(fib_numbers)
+
+# 💻
+# def fibonacci(n):
+#     if n <= 1:
+#         return n
+#     else:
+#         return fibonacci(n-1) + fibonacci(n-2)
+
+# fib_numbers = [fibonacci(i) for i in range(278)]
+# print(fib_numbers)
+
+
+# Vdo 32 💻💻
+# Set : set is the collection of well defined object
+
+# s1 = {1,2,6,7}
+# s2={3,5,6,7}
+# print(s1.union(s2)) #📤🔳#out = {1, 2, 3, 5, 6, 7}
+# print(s1.intersection(s2)) #📤🔳#out = {6, 7}
+# print(s1.difference(s2)) #📤🔳#out = {1, 2}
+# print(s1.symmetric_difference(s2)) #📤🔳#out = {1, 2, 3, 5}  #A▲B = A U B - A n B
+# s1.update(s2) #📤🔳#out = {1, 2, 3, 5, 6, 7}
+# print(s1 ,s2) #📤🔳#out = {1, 2, 3, 5, 6, 7} {3, 5, 6, 7}
+# print(s1.issubset(s2)) #📤🔳#out = False #is s1 is subset of s2
+# print(s1.issuperset(s2)) #📤🔳#out = True #is s1 is superset of s2
+# print(s1.isdisjoint(s2)) #📤🔳#out = False # disjoint means no common element
+# s1.add(10)
+# print(s1) #📤🔳#out = {1, 2, 6, 7, 10}
+
+
+# country = {"India", "USA", "China", "Pakistan"}
+# # item = country.pop()
+# # print(country)
+# # print(item)
+# country.remove("USA")
+# print(country)
+
+# country = {"India", "USA", "China", "Pakistan"}
+# del country
+# print(country) #📤🔳#out = name 'country' is not defined
+
+# country = {"India", "USA", "China", "Pakistan"}
+# country.clear()
+# print(country) #📤🔳#out = set()
+
+# country = {"India", "USA", "China", "Pakistan"}
+# if "USA" in country:
+#     print("USA is in the country set")
+# else: 
+#     print("USA is not in the country set")
+
+# vdo 33 💻💻
+# Dictionary : Dictionary is the collection of key value pair
+
+# dic = {
+#     "swastik": "student",
+#     "chandan": "teacher"
+# }
+
+# print(dic["swastik"])
+# print(dic.get("swastik"))
+# print(dic["chandan"])
+
+# # or
+# dic = {
+#     123: "student",
+#     456: "teacher",
+#     768: "swastik"
+# }
+# # print(dic[123])
+# # print(dic.keys())
+# print(dic.items())
+# #or
+# for key, value in dic.items():
+#     print(key)
+#     print(f"the value corresponding to the key {key} is {value}")
+
+
+dic1 = {123: "student", 456: "teacher", 768: "swastik", 736: "genius"}  
+dic2 = {311: "user", 827: "advance", 927: "pro"}
+# dic1.update(dic2)
+# print(dic1)  # 📤🔳out = {123: 'student', 456: 'teacher', 768: 'swastik', 736: 'genius', 311: 'user', 827: 'advance', 927: 'pro'}
+# dic1.clear()  
+# print(dic1) #📤🔳#out = {}
+# dic1.pop(123) #📤🔳#out = {456: 'teacher', 768: 'swastik', 736: 'genius'}
+# dic1.popitem() #📤🔳#out = {456: 'teacher', 768: 'swastik', 736: 'genius'} ✨#Remove the last item from the dictionary
+# print(dic1)
+# del dic1   #📤🔳#out = delete the whole dictionary
+
+       
+
+
+
+
+
 
 
 
