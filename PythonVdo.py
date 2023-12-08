@@ -446,31 +446,53 @@
 #     print(f"the value corresponding to the key {key} is {value}")
 
 
-dic1 = {123: "student", 456: "teacher", 768: "swastik", 736: "genius"}  
-dic2 = {311: "user", 827: "advance", 927: "pro"}
-# dic1.update(dic2)
-# print(dic1)  # 📤🔳out = {123: 'student', 456: 'teacher', 768: 'swastik', 736: 'genius', 311: 'user', 827: 'advance', 927: 'pro'}
-# dic1.clear()  
-# print(dic1) #📤🔳#out = {}
-# dic1.pop(123) #📤🔳#out = {456: 'teacher', 768: 'swastik', 736: 'genius'}
-# dic1.popitem() #📤🔳#out = {456: 'teacher', 768: 'swastik', 736: 'genius'} ✨#Remove the last item from the dictionary
-# print(dic1)
-# del dic1   #📤🔳#out = delete the whole dictionary
+# dic1 = {123: "student", 456: "teacher", 768: "swastik", 736: "genius"}  
+# dic2 = {311: "user", 827: "advance", 927: "pro"}
+# # dic1.update(dic2)
+# # print(dic1)  # 📤🔳out = {123: 'student', 456: 'teacher', 768: 'swastik', 736: 'genius', 311: 'user', 827: 'advance', 927: 'pro'}
+# # dic1.clear()  
+# # print(dic1) #📤🔳#out = {}
+# # dic1.pop(123) #📤🔳#out = {456: 'teacher', 768: 'swastik', 736: 'genius'}
+# # dic1.popitem() #📤🔳#out = {456: 'teacher', 768: 'swastik', 736: 'genius'} ✨#Remove the last item from the dictionary
+# # print(dic1)
+# # del dic1   #📤🔳#out = delete the whole dictionary
 
 
-# vdo 34 💻💻   Else In LOop (for , while)
-    #🌟 Else with for loop  
-# 🌟✨💻INTERVIEW QUES. = kYA HUM FOR LOOP KE SATH ELSE USE KR SKTE HE ??   🔳 ANS. = YES WE CAN USE ELSE WITH FOR LOOP
-# 🌟✨💻INTERVIEW QUES. = Loop ko break kiya he btao else chalega ya nhi ??   🔳 ANS. = NO ELSE WILL NOT RUN
-for i in ():
-    print(i)
-else: 
-    print("SORRY NOT i")
+# # vdo 34 💻💻   Else In LOop (for , while)
+#     #🌟 Else with for loop  
+# # 🌟✨💻INTERVIEW QUES. = kYA HUM FOR LOOP KE SATH ELSE USE KR SKTE HE ??   🔳 ANS. = YES WE CAN USE ELSE WITH FOR LOOP
+# # 🌟✨💻INTERVIEW QUES. = Loop ko break kiya he btao else chalega ya nhi ??   🔳 ANS. = NO ELSE WILL NOT RUN
+# for i in ():
+#     print(i)
+# else: 
+#     print("SORRY NOT i")
+    
+
+#VDo 36 💻💻💻
+# 🌟Exception Handling : Exception handling is the process of responding to the occurrence, during computation, of exceptions – anomalous or exceptional conditions requiring special processing – often changing the normal flow of program execution.
+
+# a = input("What is your number: ")
+# print(f"this is the multiflication table of {a}")
+
+# try:
+#     for i in range(1, 11):
+#         print(f"{a} X {i} = {int(a)*i}")
+# except:
+#     print("enter a valid input") 
+
+# print("thanks for using our multiplication table")
+
+##types of exception handling
+# except ValueError:
+#     print("enetr input is not a integer")
+
+# except IndexError:
+#     print("entered index is out of range")
 
 
 
 
-       
+
 
 
 
