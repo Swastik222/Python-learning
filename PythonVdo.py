@@ -490,6 +490,22 @@
 #     print("entered index is out of range")
 
 
+# vdo 37 💻💻💻 08/12/23 
+# 🌟Finally Keyword : Finally keyword is used to execute the code whether the exception is handled or not
+# 🌟Finally keyword iS USED WHEN def function is used  {🌟🌟🌟🌟❤️ IMP Interview asked}
+
+# finally:
+#     print("this will run no matter what")
+
+
+# VDo 38 💻💻💻
+# 🌟Raising Custom Error :  In Python we can raise custom errors by using raise keyword.
+
+a = int(input("enter a number between 10 to 20 : "))
+
+if(a<10 or a>20):
+    raise ValueError("Value should be between 10 and 20")
+
 
 
 
