@@ -511,9 +511,24 @@
 #     raise ValueError("Value should be between 10 and 20")
 
 
+# # VDO 41 💻💻💻
+# If , Else in Single line 
+
+# a = 1000
+# b = 2000
+# print("A") if a>b else print ("=") if a==b  else print("B")  #📤🔳#out = B
+
+# c = 9 if a>b else 0
+# print(c) #📤🔳#out = 0
 
 
+# VDO 42 💻💻💻
+# 🌟 Enumerate Function : easy way to count the index of list
 
+# Loop over a list and print the index (starting at 1) and value of each element
+fruits = ['apple', 'banana', 'mango']
+for index, fruit in enumerate(fruits, start=1):
+    print(index, fruit)
 
 
 
