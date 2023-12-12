@@ -539,7 +539,7 @@
 # VDO 44💻💻 Importing In python
 
 # import math
-# print(dir(math))    #for all function under math
+# print(dir(math))    # dir is used to view all function & variable within math module 
 
 
 
@@ -559,6 +559,8 @@
 # print(result)  # Output: 3.0
 # print(pi)  # Output: 3.141592653589793
 
+# from math import *
+# print(type(nan))
 
 
 
