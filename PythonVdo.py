@@ -526,9 +526,39 @@
 # 🌟 Enumerate Function : easy way to count the index of list
 
 # Loop over a list and print the index (starting at 1) and value of each element
-fruits = ['apple', 'banana', 'mango']
-for index, fruit in enumerate(fruits, start=1):
-    print(index, fruit)
+# fruits = ['apple', 'banana', 'mango']
+# for index, fruit in enumerate(fruits):
+#     print(index, fruit)
+
+
+# VDO 43 💻💻💻
+# Virtual Environment : Virtual environment is a tool that helps to keep dependencies required by  
+# different projects separate by creating isolated python virtual environments for them. 
+# This is one of the most important tools that most of the Python developers use.
+
+# VDO 44💻💻 Importing In python
+
+# import math
+# print(dir(math))    #for all function under math
+
+
+
+# from math import *
+# result = sqrt(9)
+# print(result)  # Output: 3.0
+# print(pi)  # Output: 3.141592653589793
+
+# import math as m
+
+# result = m.sqrt(9)
+# print(result)  # Output: 3.0
+# print(m.pi)  # Output: 3.141592653589793
+
+from math import sqrt, pi
+result = sqrt(9)
+print(result)  # Output: 3.0
+print(pi)  # Output: 3.141592653589793
+
 
 
 
