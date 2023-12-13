@@ -559,8 +559,31 @@
 # print(result)  # Output: 3.0
 # print(pi)  # Output: 3.141592653589793
 
-# from math import *
-# print(type(nan))
+# from math import *  
+
+
+
+# VDO 45 💻💻💻   if "__name__ == "__main__" in Python
+# The if __name__ == "__main__" idiom is a common pattern used in Python 
+# scripts to determine whether the script is being run directly or being imported as a module into another script
+
+# sm.py file
+def welcome():
+    # Code to be run when the script is run directly
+    print("Running script directly")
+
+if __name__ == "__main__":
+    welcome()
+
+# main.py file
+import sm
+
+sm.welcome()  # Output: "Running script directly"
+
+
+# VDO 46 💻💻💻  OS MODULE IN PYTHON  (🌟🌟🌟iNTERVIEW IMP)
+# The OS module in python provides functions for interacting with the operating system.
+
 
 
 
