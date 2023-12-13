@@ -568,17 +568,17 @@
 # scripts to determine whether the script is being run directly or being imported as a module into another script
 
 # sm.py file
-def welcome():
-    # Code to be run when the script is run directly
-    print("Running script directly")
+# def welcome():
+#     # Code to be run when the script is run directly
+#     print("Running script directly")
 
-if __name__ == "__main__":
-    welcome()
+# if __name__ == "__main__":
+#     welcome()
 
-# main.py file
-import sm
+# # main.py file
+# import sm
 
-sm.welcome()  # Output: "Running script directly"
+# sm.welcome()  # Output: "Running script directly"
 
 
 # VDO 46 💻💻💻  OS MODULE IN PYTHON  (🌟🌟🌟iNTERVIEW IMP)
