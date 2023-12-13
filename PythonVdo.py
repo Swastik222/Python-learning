@@ -584,6 +584,8 @@ sm.welcome()  # Output: "Running script directly"
 # VDO 46 💻💻💻  OS MODULE IN PYTHON  (🌟🌟🌟iNTERVIEW IMP)
 # The OS module in python provides functions for interacting with the operating system.
 
+🌟Watch os function in doc.python.org
+
 
 
 
